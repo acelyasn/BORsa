@@ -2,7 +2,9 @@
 This is my currency exchanger discord bot. 
 - Supports exchange from any currency 
 - Supports slash commands*
-- Shows all TRY based currency values (for now)  
+- Shows all TRY based currency values (for now) 
+
+Here's the link if you want to add it to your server: [x](https://discord.com/api/oauth2/authorize?client_id=1068183345298673734&permissions=414464657472&scope=bot) 
 
 ## Commands
 ```bor change``` (a number) (from currency) (to currency) -- should be all capital letters: Exchanges a value of a given currency to the other given currency.
