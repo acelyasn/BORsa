@@ -12,7 +12,7 @@ This is my currency exchanger discord bot.
 ### TRY based commands
 *For now, all the slash commands are TRY based 
 
-For now, embed color changes accordingly with the change of values only for these commands. (e.g., if there's an increase, embed color = green)
+For now, embed colors change accordingly with the change of values only for these commands. (e.g., if there's an increase, embed color = green)
 
 ```/borsa``` : Shows all TRY based currency values
 
