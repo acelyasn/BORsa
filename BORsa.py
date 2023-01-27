@@ -4,12 +4,11 @@ from discord import app_commands
 import requests
 from bs4 import BeautifulSoup
 
-#bor 100 tl eur deyip 100ü ayrı algıla ve kullan split yap yani sonra siteleri kullan yolla daha kısa 
 
 channel_id = 808495138686369832
 client = commands.Bot(command_prefix= "bor ", intents=discord.Intents.all())
 
-token = "MTA2ODE4MzM0NTI5ODY3MzczNA.GIF1SB.ATuRwgPd_v1CpuGok2xkaGas2OjQQYH0H0uMwA"
+token = "token"
 
 #urls 
 URL_PL = "https://kur.doviz.com/serbest-piyasa/polonya-zlotisi"
@@ -18,7 +17,7 @@ URL_USD = "https://www.bloomberght.com/doviz/dolar"
 
 url_genel = "https://www.x-rates.com/calculator/?from=A&to=B&amount=1"
 
-#emojiler
+#emojis
 
 down = "<:dcdown:824159108533714984>"
 up = "<:dcup:824158961904517122>"
@@ -32,6 +31,7 @@ async def on_ready():
     print("BORsa is ready to go")
     print(f"Commands synced: {len(synced)} " )
 
+#currency exchanger
 @client.command(description="number + from + to -- need to use uppercase for currencies")
 async def change(ctx,*,text):
     embed = discord.Embed(
