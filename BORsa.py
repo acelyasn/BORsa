@@ -59,7 +59,7 @@ async def change(ctx,*,text):
     await ctx.channel.send(embed=embed)
     
 # slash commands
-@client.tree.command(name="borsa", description="top 10 currency rates for the given currency")
+@client.tree.command(name="borsa", description="top 11 currency rates for the given currency")
 async def borsa(interaction: discord.Interaction, text:str):
     
     total_embed = discord.Embed(
